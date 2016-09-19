@@ -1,0 +1,57 @@
+{
+  "name": "smitjainsj-icinga2",
+  "version": "0.1.2",
+  "author": "smitjainsj",
+  "summary": "Puppet Module for Icinga2 Core and Icinga2 Web2 Interface",
+  "license": "NULL",
+  "tags": ["icinga2", "icinga","icingaweb2","nagios","monitoring"],
+  "source": "https://github.com/smitjainsj/icinga2",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "14.04",
+        "15.04",
+        "15.10"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "version_requirement": "3.x",
+      "name": "pe"
+    },
+    {
+      "version_requirement": "3.x",
+      "name": "puppet"
+    }
+  ],
+  "issues_url": "https://github.com/smitjainsj/icinga2/issues",
+  "data_provider": null,
+  "project_page": "http://docs.icinga.org/icinga2/latest/doc/module/icinga2/toc",
+  "dependencies": [
+    {"version_requirement":">= 1.0.0","name":"puppetlabs/vcsrepo"},
+    {"version_requirement":">= 1.0.0","name":"puppetlabs-stdlib"}
+  ]
+}
